@@ -1,4 +1,4 @@
-# Light On Website v2
+# Light On Website
 
 نسخة مبسطة من موقع Light On.
 
