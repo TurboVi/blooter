@@ -156,6 +156,10 @@
   }
 
   .cta-telegram {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
     width: 100%;
     min-width: 0;
     margin-top: 18px;
@@ -163,9 +167,23 @@
     border-radius: 16px;
   }
 
+  .cta-telegram svg {
+    display: block !important;
+    width: 23px !important;
+    height: 23px !important;
+    flex: 0 0 23px !important;
+    margin: 0 !important;
+    transform: translateY(0) !important;
+  }
+
   .cta-telegram strong {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
     font-size: 14px;
+    line-height: 23px !important;
     white-space: normal;
+    transform: none !important;
   }
 
   .lead {
