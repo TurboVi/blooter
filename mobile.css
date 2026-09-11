@@ -1,0 +1,288 @@
+@media (max-width: 680px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: calc(100% - 28px);
+    max-width: 100%;
+  }
+
+  .nav {
+    min-height: 64px;
+    gap: 10px;
+  }
+
+  .brand {
+    gap: 8px;
+    font-size: 16px;
+    flex: 0 0 auto;
+  }
+
+  .brand img {
+    width: 38px;
+    height: 38px;
+    border-radius: 11px;
+  }
+
+  .telegram-top {
+    max-width: 52vw;
+    padding: 9px 11px;
+    border-radius: 12px;
+    font-size: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .hero {
+    padding: 84px 0 56px;
+  }
+
+  .ambient-one {
+    width: 240px;
+    height: 240px;
+    right: -120px;
+    top: 170px;
+  }
+
+  .ambient-two {
+    width: 220px;
+    height: 220px;
+    left: -120px;
+    top: 420px;
+  }
+
+  .screens-showcase {
+    position: relative;
+    width: 100%;
+    max-width: 430px;
+    height: 330px;
+    margin: 0 auto 28px;
+    transform: none;
+    perspective: 900px;
+  }
+
+  .screen-device {
+    position: absolute;
+    top: 50%;
+    height: auto;
+    border-width: 5px;
+    border-radius: 24px;
+    box-shadow: 0 24px 55px rgba(0,0,0,.42);
+  }
+
+  .screen-device:after {
+    border-radius: 18px;
+  }
+
+  .screen-main {
+    left: 50%;
+    width: min(49vw, 190px);
+    height: auto;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+  }
+
+  .screen-side {
+    width: min(39vw, 152px);
+    height: auto;
+    opacity: .78;
+    z-index: 2;
+  }
+
+  .left-card {
+    left: 50%;
+    transform: translate(-98%, -48%) rotateY(7deg) rotateZ(-2deg);
+  }
+
+  .right-card {
+    left: 50%;
+    transform: translate(-2%, -48%) rotateY(-7deg) rotateZ(2deg);
+  }
+
+  .hero-copy {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .mini-title {
+    margin-bottom: 10px;
+    font-size: 10px;
+    letter-spacing: 2.4px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(31px, 9vw, 38px);
+    line-height: 1.16;
+    letter-spacing: -.8px;
+  }
+
+  .title-with-icon {
+    gap: 8px;
+  }
+
+  .title-app-icon {
+    width: 1em;
+    height: 1em;
+    border-radius: 22%;
+  }
+
+  .hero-cta-box {
+    width: 100%;
+    margin: 24px auto 22px;
+    padding: 22px 18px;
+    border-radius: 22px;
+    text-align: right;
+  }
+
+  .hero-cta-box .cta-copy {
+    width: 100%;
+  }
+
+  .cta-box h2,
+  .hero-cta-box h2 {
+    margin-bottom: 8px;
+    font-size: 25px;
+    line-height: 1.35;
+  }
+
+  .cta-box span,
+  .hero-cta-box span {
+    display: block;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  .cta-telegram {
+    width: 100%;
+    min-width: 0;
+    margin-top: 18px;
+    padding: 14px 16px;
+    border-radius: 16px;
+  }
+
+  .cta-telegram strong {
+    font-size: 14px;
+    white-space: normal;
+  }
+
+  .lead {
+    max-width: 100%;
+    margin: 22px auto 0;
+    padding-inline: 2px;
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  .points {
+    grid-template-columns: 1fr;
+    gap: 11px;
+    margin: 28px 0 18px;
+  }
+
+  .point,
+  .point.wide {
+    grid-column: auto;
+    min-height: 0;
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .point .icon {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+    border-radius: 12px;
+  }
+
+  .point strong {
+    margin-top: 2px;
+    font-size: 14px;
+  }
+
+  .point small {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  footer {
+    padding: 24px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .container {
+    width: calc(100% - 22px);
+  }
+
+  .hero {
+    padding-top: 78px;
+  }
+
+  .screens-showcase {
+    height: 282px;
+    margin-bottom: 22px;
+  }
+
+  .screen-main {
+    width: min(50vw, 166px);
+  }
+
+  .screen-side {
+    width: min(40vw, 132px);
+  }
+
+  h1 {
+    font-size: clamp(29px, 8.6vw, 34px);
+    line-height: 1.17;
+  }
+
+  .hero-cta-box {
+    padding: 20px 16px;
+  }
+
+  .cta-box h2,
+  .hero-cta-box h2 {
+    font-size: 23px;
+  }
+
+  .lead {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 370px) {
+  .nav {
+    min-height: 60px;
+  }
+
+  .brand {
+    font-size: 14px;
+  }
+
+  .brand img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .telegram-top {
+    max-width: 48vw;
+    font-size: 9px;
+  }
+
+  .screens-showcase {
+    height: 248px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
